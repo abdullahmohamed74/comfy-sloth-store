@@ -54,7 +54,7 @@ function CheckoutForm() {
       );
       setClientSecret(data.clientSecret);
     } catch (error) {
-      console.error(error);
+      // console.error(error);
     }
   }, [total_price, shipping_fee]);
 
